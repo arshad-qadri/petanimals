@@ -1,0 +1,386 @@
+*{
+	
+margin:0;
+	
+padding:0;	
+
+}
+
+body{
+	
+background-image: url("pe2.jpg");
+background-repeat: no-repeat;
+height:10vh;
+background-size:cover;
+}
+
+ul{
+float:right;
+list-style-type:none;
+margin-right:-20px;
+
+}
+ul li{
+
+display:inline-block;
+
+}
+ul li a{
+text-decoration:none;
+color:#fff;
+padding:25.5px 23px;
+margin:-5px;
+margin-right: 5px;
+font-size:25px;
+font-family: "sans-serif",arial black;
+}
+ul li a:hover{
+background-color:orange;
+
+color:black;
+opacity: 0.8;
+
+
+}
+ul li.active a{
+background-color:orange;
+color:white;
+}
+#black{
+	color: black;
+}
+
+nav{
+width:100%;
+height:80px;
+background-color:#0009;
+margin: auto;
+line-height:20px;
+position: fixed;
+
+}
+
+.main1{
+font-family:"sans serif",arial black; 
+font-size:20px;
+padding:3px 20px;
+color:white;
+height:20px;
+
+}
+nav .main1 h4{
+margin:20px;
+font-size:30px;
+
+}
+#active{
+	color: orange;
+}
+.search-box{
+position:absolute;
+top:-20px;
+left:20%;
+transform:translate(-50%,50%);
+background-color:black;
+height:-20px;
+border-radius:60px;
+padding:10px;
+padding-left: -10px;
+
+
+}
+.input-box{
+border:none;
+outline:none;
+background:none;
+float:left;
+padding:0;
+color:#fff;
+font-size:16px;
+transition:0.4s all;
+line-height:20px;
+width:0;
+}
+.btn{
+color:orange;
+float:right;
+text-decoration:none;
+width:40px;
+height:40px;
+line-height:40px;
+text-align:center;
+border-radius:50%;
+}
+.search-box:hover .input-box{
+width:180px;
+margin-left: 0px;
+
+}
+.search-box:hover .btn{
+background-color:#fff;
+}
+#clear{
+	clear: both;
+
+}
+
+.container{
+	max-height: 900px;
+	max-width: 900px;
+
+}
+.line1{
+    margin-top: 720px;
+	margin-left: 0px;
+	height: 40px
+	width:100%;
+	background-color: black;
+
+}
+.line{
+	text-align: center;
+	font-family: "sans serif",arial black;
+	color: white;
+	font-size: 40px;
+}
+ .image a img{
+	height: 280px;
+	width:400px;
+	margin-left: 820px;
+	margin-top: -420px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 20px black;
+	padding-top: -100px;
+}
+.border{
+	margin-bottom: 50px;
+}
+hr{
+	margin-top: 30px;
+
+}
+p{
+	margin-top: : 500px;
+	font-size: 20px;
+	margin-left: 30px;
+}
+ strong{
+ 	margin-left: 10px;
+	font-size: 40px;
+	font-family: "sans serif",arial black;
+
+}
+.container{
+	display: flex;
+}
+.border{
+	border: 2px solid black;
+	margin: 10px 10px 10px 10px;
+}
+.catphoto a img{
+	height: 350px;
+	width:400px;
+	margin-top: 70px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 20px black;
+	padding-left: 30px;
+}
+ .cat p{
+	margin-left: 35px;
+	text-align: left;
+	
+	
+}
+.catphoto{
+	order: 1;
+}
+.cat{
+	order: 2;
+}
+.container1{
+	display: flex;
+	text-align: right;
+}
+#cat{
+	margin-left: -5px;
+}
+.goat p{
+	margin-left: 20px;
+	display: flex;
+	margin-top: 20px;
+}
+#goat{
+	margin-left: 20px;
+	margin-top: -20px;
+}
+.goatphoto a img{
+	height: 350px;
+	width:400px;
+	margin-top: 15px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 20px black;
+	margin-right: 20px;
+	
+}
+.container2{
+	display: flex;
+}
+.goatphoto{
+	order:2;
+}
+#goat{
+	order: 1;
+}
+.goat p{
+	margin-left: 20px;
+	display: flex;
+	margin-top: 20px;
+}
+#horse{
+	margin-left: 20px;
+	margin-top: -20px;
+}
+.horsephoto a img{
+	height: 350px;
+	width:400px;
+	margin-top: 15px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 20px black;
+	margin-right: 20px;
+	display: flex;
+}
+.container3{
+	display: flex;
+}
+
+.horse p{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.horsephoto a img{
+	margin-left: 20px;
+	margin-top: 100px;
+}
+.container4{
+	display: flex;
+}
+.cowphoto a img{
+	height: 350px;
+	width:400px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 20px black;
+	margin-right: 20px;
+	margin-top: 30px;	
+}
+.container5{
+	display: flex;
+}
+.bullphoto a img{
+	height: 300px;
+	width:410px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 20px black;
+	margin-top: 30px;
+	margin-left: 20px;	
+}
+.bull p{
+	margin-top: 30px;
+}
+footer{
+	border: 2px solid black;
+	text-align: center;
+	background: black;
+	color: white;
+	height: 40px;
+	width:100%;
+	font-family: "sans serif",arial black;
+	font-size: 25px;
+	line-height: 40px; 
+
+}
+
+.container6{
+	display: flex;
+
+}
+.angora{
+	order: 1;
+}
+.angoraphoto{
+	order: 2;
+}
+.angoraphoto a img{
+	height: 300px;
+	width:410px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 20px black;
+	margin-top: 30px;
+	margin-right: 30px;		
+}
+.logo img{
+	height: 97px;
+	width: 120px;
+	margin-left: 25px;
+	margin-top:0px;
+}
+.more{
+	text-align: center;
+	font-family: "sans serif",arial black;
+	text-decoration: underline;
+	margin: 30px 30px;
+	color: blue;
+	cursor: pointer;
+	
+}
+
+nav ul li ul li{
+	display: none;	
+}
+
+nav ul li:hover > ul li {
+	display: block;
+	background-color:#0009;
+	width: 96px;
+	line-height: 25px;
+	text-decoration: none;
+	padding: 40px;
+	border-bottom:  1px solid #FFFFFF;
+
+}
+nav ul li ul li a{
+	padding-top:14px;
+	padding-bottom: 19px;
+	padding-right: auto;
+}
+
+
+nav ul li #drop li{
+	
+	padding: 20px;
+}
+.lo img{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+nav ul li #drop .a{
+	margin-top: 28px;
+	margin-left: -162px;
+}
+nav ul li a span img{
+	height: 20px;
+	width: 20px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+#drop .a li:hover{
+	background-color:orange;
+
+color:black;
+opacity: 0.9;
+
+}
+

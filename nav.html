@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>nav</title>
+    <style type="text/css">
+       *{
+    
+margin:0;
+    
+padding:0;  
+
+}
+
+body{
+    
+background-image: url("pe2.jpg");
+background-repeat: no-repeat;
+height:10vh;
+background-size:cover;
+}
+
+ul{
+float:right;
+list-style-type:none;
+margin-right:-20px;
+
+}
+ul li{
+
+display:inline-block;
+
+}
+ul li a{
+text-decoration:none;
+color:#fff;
+padding:25.5px 23px;
+margin:-5px;
+margin-right: 5px;
+font-size:25px;
+font-family: "sans-serif",arial black;
+}
+ul li a:hover{
+background-color:orange;
+
+color:black;
+opacity: 0.8;
+
+
+}
+ul li.active a{
+background-color:orange;
+color:white;
+}
+#black{
+    color: black;
+}
+
+nav{
+width:100%;
+height:80px;
+background-color:#0009;
+margin: auto;
+line-height:20px;
+position: fixed;
+
+}
+
+.main1{
+font-family:"sans serif",arial black; 
+font-size:20px;
+padding:3px 20px;
+color:white;
+height:20px;
+
+}
+nav .main1 h4{
+margin:20px;
+font-size:30px;
+
+}
+
+
+
+nav ul li ul li{
+    display: none;  
+}
+
+nav ul li:hover > ul li {
+    display: block;
+    background-color:#0009;
+    width: 96px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 40px;
+    border-bottom:  1px solid #FFFFFF;
+
+}
+nav ul li ul li a{
+    padding-top:14px;
+    padding-bottom: 19px;
+    padding-right: auto;
+}
+
+
+nav ul li #drop li{
+    
+    padding: 20px;
+}
+
+nav ul li #drop .a{
+    margin-top: 28px;
+    margin-left: -162px;
+}
+nav ul li a span img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+#drop .a li:hover{
+    background-color:orange;
+
+color:black;
+opacity: 0.9;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <nav>
+
+<ul>
+<li> <a href="pets.html">Home</a></li>
+
+
+<li> <a href="#">Pets</a>
+<ul id=drop>
+    <div class="a">
+    <li> <a href="dog.html">Dog</a></li>
+    <li> <a href="cat.html">Cat</a></li>
+    <li> <a href="goat.html">Goat</a></li>
+    <li> <a href="cow.html">Cow</a></li>
+    </div>
+</ul></li>
+<li> <a href="gallery.html" >Gallery</a></li>
+<li> <a href="aboutus.html">About Us</a></li>
+
+
+
+
+<li> <a href="contact1.html">Contact Us</a></li>
+<li> <a href="feedback1.html">Feedback</a></li>
+</ul>
+
+</nav>
+
+</body>
+</html>
